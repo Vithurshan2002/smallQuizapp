@@ -42,9 +42,11 @@
 }
 .scoreboard{
     padding: 5px;
+    width: 500px;
 }
 .scoreboard>p{
     margin-bottom: 5px;
+    font-size: 30px;
 }
 .scoreboard>button {
     border-radius: 6px;
@@ -52,7 +54,10 @@
     font-size: 15px;
     border: none;
     padding: 4px;
-    
+    transition: background-color 0.3s;
+}
+.scoreboard>button:hover{
+    background-color:rgb(97, 241, 136);
 }
 button:hover{
     cursor: pointer;
