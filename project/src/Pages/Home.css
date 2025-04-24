@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Alice&family=Concert+One&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Faculty+Glyphic&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy&family=Winky+Rough:ital,wght@0,300..900;1,300..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+#root{
+    background-color:rgb(29, 28, 27) ;
+    height: 100vh;
+    place-items: center;
+    display: grid;
+}
+.maincontainer{
+    background-color: rgb(245, 246, 247);
+    padding: 10px;
+    text-align: center;
+}
+.container>h1{
+    color: rgb(44, 148, 183);
+    margin-bottom: 5px;
+}
+.container>div>button{
+    background-color: rgb(76, 172, 241);
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    color: white;
+    transition: background-color 0.4s;
+    padding: 5px;
+
+}
+.container>div>button:hover{
+    background-color: rgb(49, 70, 227);
+}
+.container>p{
+    padding-bottom:8px;
+    color: rgb(29, 2, 2);
+    font-family: 'alice';
+    font-size: 18px;
+}
+.time{
+    padding-top: 5px;
+    color:rgb(104, 102, 102);
+}
+.time>span{
+    color: black;
+}
+.scoreboard{
+    padding: 5px;
+}
+.scoreboard>p{
+    margin-bottom: 5px;
+}
+.scoreboard>button {
+    border-radius: 6px;
+    background-color:red;
+    font-size: 15px;
+    border: none;
+    padding: 4px;
+    
+}
+button:hover{
+    cursor: pointer;
+}
